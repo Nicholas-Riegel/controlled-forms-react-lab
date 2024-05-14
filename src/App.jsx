@@ -1,8 +1,12 @@
+import Bookshelf from './components/Bookshelf';
 
-function App() {
+const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <h1>My Bookshelf</h1>
+      <Bookshelf />
+    </>
+  );
+};
 
-export default App
+export default App;
